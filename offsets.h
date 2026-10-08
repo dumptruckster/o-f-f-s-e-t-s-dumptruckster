@@ -4,8 +4,8 @@
 /* 8====================================================D
 /*  Dumped With     : niggaware! (by fylux22!!!!!!)
 /*  Roblox Version  : version-cec3ad5889b447cf
-/*  Time Taken      : 20279 ms
-/*  Total Offsets   : 438
+/*  Time Taken      : 18039 ms
+/*  Total Offsets   : 453
 /* 8====================================================D
 */
 
@@ -43,6 +43,19 @@ namespace Offsets {
 
     namespace Attachment {
          inline constexpr uintptr_t Position = 0xb4;
+    }
+
+    namespace Attribute {
+         inline constexpr uintptr_t Key          = 0x0;
+         inline constexpr uintptr_t Size         = 0x58;
+         inline constexpr uintptr_t TypeIdRva    = 0x8abd1e4;
+         inline constexpr uintptr_t TypeIdRvaNew = 0x8abd1ec;
+         inline constexpr uintptr_t Value        = 0x8;
+    }
+
+    namespace AttributesMap {
+         inline constexpr uintptr_t Attributes = 0x10;
+         inline constexpr uintptr_t Length     = 0x0;
     }
 
     namespace BasePart {
@@ -159,10 +172,10 @@ namespace Offsets {
     }
 
     namespace DeviceD3D11 {
-         inline constexpr uintptr_t Context      = 0x240;
+         inline constexpr uintptr_t Context      = 0x180;
          inline constexpr uintptr_t ContextObj   = 0x1b0;
-         inline constexpr uintptr_t ContextPtr   = 0x240;
-         inline constexpr uintptr_t DevicePtr    = 0x238;
+         inline constexpr uintptr_t ContextPtr   = 0x180;
+         inline constexpr uintptr_t DevicePtr    = 0x178;
          inline constexpr uintptr_t SwapChainPtr = 0x80;
          inline constexpr uintptr_t VTableRva    = 0x6d03498;
     }
@@ -183,6 +196,16 @@ namespace Offsets {
 
     namespace FakeDataModel {
          inline constexpr uintptr_t RealDataModel = 0x1f0;
+    }
+
+    namespace FastCluster {
+         inline constexpr uintptr_t VTableRva    = 0x6d6fb58;
+         inline constexpr uintptr_t VTableRvaSub = 0x6d6fc88;
+    }
+
+    namespace FastClusterBinding {
+         inline constexpr uintptr_t Owner     = 0x60;
+         inline constexpr uintptr_t VTableRva = 0x6d70c18;
     }
 
     namespace FastClusterEntity {
@@ -228,7 +251,7 @@ namespace Offsets {
          inline constexpr uintptr_t ScreenGui_Enabled      = 0x4b4;
          inline constexpr uintptr_t Text                   = 0xba0;
          inline constexpr uintptr_t TextColor3             = 0xeb8;
-         inline constexpr uintptr_t Visible                = 0x59d;
+         inline constexpr uintptr_t Visible                = 0x568;
          inline constexpr uintptr_t ZIndex                 = 0x594;
     }
 
@@ -273,15 +296,19 @@ namespace Offsets {
     }
 
     namespace Instance {
-         inline constexpr uintptr_t ChildrenEnd     = 0x8;
-         inline constexpr uintptr_t ChildrenStart   = 0x78;
-         inline constexpr uintptr_t ClassBase       = 0x1b0;
-         inline constexpr uintptr_t ClassDescriptor = 0x18;
-         inline constexpr uintptr_t ClassName       = 0x8;
-         inline constexpr uintptr_t Name            = 0x8;
-         inline constexpr uintptr_t NameContainer   = 0x70;
-         inline constexpr uintptr_t Parent          = 0x68;
-         inline constexpr uintptr_t This            = 0x8;
+         inline constexpr uintptr_t AttributeContainer = 0x40;
+         inline constexpr uintptr_t AttributeList      = 0x10;
+         inline constexpr uintptr_t AttributeToNext    = 0x58;
+         inline constexpr uintptr_t AttributeToValue   = 0x18;
+         inline constexpr uintptr_t ChildrenEnd        = 0x8;
+         inline constexpr uintptr_t ChildrenStart      = 0x78;
+         inline constexpr uintptr_t ClassBase          = 0x1b0;
+         inline constexpr uintptr_t ClassDescriptor    = 0x18;
+         inline constexpr uintptr_t ClassName          = 0x8;
+         inline constexpr uintptr_t Name               = 0x8;
+         inline constexpr uintptr_t NameContainer      = 0x70;
+         inline constexpr uintptr_t Parent             = 0x68;
+         inline constexpr uintptr_t This               = 0x8;
     }
 
     namespace Lighting {
